@@ -1,0 +1,13 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: Test-JoFischer-world
+  host: Test-JoFischer-world
+  disk_quota: 1024M
+  services:
+  - Test-JoFischer-world-AdvancedMobileAccess
+  - Test-JoFischer-world-imfpush
+  - Test-JoFischer-world-cloudantNoSQLDB
+  - availability-monitoring-auto
